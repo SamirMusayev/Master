@@ -19,7 +19,7 @@ public class ParkCalculate extends StartUpLibrary {
 			page1.exitMonthDate("3/12/2020", By.id("ExitDate"));
 			page1.calculateBtn(By.name("Submit"));
 			page1.verification("500.35");
-
+ System.out.println("esq olsun");
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
