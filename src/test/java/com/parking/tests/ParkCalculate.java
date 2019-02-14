@@ -20,6 +20,7 @@ public class ParkCalculate extends StartUpLibrary {
 			page1.calculateBtn(By.name("Submit"));
 			page1.verification("500.35");
  System.out.println("esq olsun");
+ System.out.println("esq olsun2");
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
